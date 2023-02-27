@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bankist | When Banking meets Minimalist</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="img/logo.png"
+          alt="Bankist logo"
+          class="nav__logo"
+          id="logo"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Características</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Operaciones</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Ideas de Diseño</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Contacta Ahora! </a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <h1>
+          <span class="highlight">Reformamos</span> <br>
+          tu casa en<br />
+          <span class="highlight">Valencia</span>
+        </h1>
+        <h4>Creemos que todas las casas deben construirse y reformarse de esta manera.</h4>
+        <button class="btn--text btn--scroll-to">Más sobre nosotros &DownArrow;</button>
+        <img
+          src="https://media.istockphoto.com/id/1250233437/es/foto/simular-marco-de-p%C3%B3ster-en-el-fondo-interior-moderno-estilo-escandinavo-renderizado-3d.jpg?s=612x612&w=0&k=20&c=e2RCxwkOWnMsML0YywulvgFiiqqRvPOTlEzs_eH3gn0="
+          class="header__img"
+          alt="Minimalist bank items"
+        />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Características</h2>
+        <h3 class="section__header">
+          Nuestros servicios.
+        </h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="img/casa.jpg"
+          data-src="img/casa.jpg"
+          alt="Computer"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/casa.jpg"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">OBRA GENERAL</h5>
+          <p>
+            Somos especialistas en todo relacionado con reformas. A Real Valencia Reformas le apasiona crear una experiencia de construcción gratificante para nuestros clientes. Ya sea que esté buscando un contratista general en Valencia para finalmente darle la cocina que se merece, o un equipo experimentado de constructores de viviendas personalizados para hacer realidad la casa de sus sueños, el equipo no puede esperar para trabajar con usted. Para obtener más información sobre lo que Real Valencia Reformas puede hacer por usted, o para consultar sobre cualquiera de nuestros servicios, no dude en ponerse en contacto ahora.
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/sala.jpg"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">COMPAÑÍA</h5>
+          <p>
+            En Real Valencia Reformas, nuestro equipo de profesionales excepcionales siempre ha sido nuestra ventaja más importante. Cada miembro de nuestro personal contribuye a nuestro propósito común: entregar un proyecto hermoso y exitoso. Hacer felices a nuestros clientes todos los días, con cada proyecto.
+          </p>
+        </div>
+        <img
+          src="img/sala.jpg"
+          data-src="img/sala.jpg"
+          alt="Plant"
+          class="features__img lazy-img"
+        />
+
+        <img
+          src="img/cocina.jpg"
+          data-src="img/cocina.jpg"
+          alt="Credit card"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/cocina.jpg"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Diseño y Reforma de viviendas</h5>
+          <p>
+            El equipo Real Valencia Reformas posee una poderosa comprensión del proceso de diseño y la creatividad para sintetizarlo con la planificación de la reforma.
+            <br><br>
+           <h5 class="features__header">Reforma de cocinas </h5> 
+            Reformar la cocina es una excelente manera de darle un lavado de cara a una casa. Real Valencia Reformas ofrece el mejor servicio y retorno de la inversión.
+            <br><br>
+            <h5 class="features__header">Reforma de baños </h5>
+            Real Valencia Reformas puede transformar cualquier baño en un refugio deseable ⁠— dando vida a la visión del propietario al rediseñar y reformar sus baños antiguos y transformarlos en un lugar de ensueño.
+            <br>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Real Valencia Reformas</h2>
+        <h3 class="section__header">
+          Todo lo que necesitas en una vivienda moderna y más.
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Clientes
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>La Empresa
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Normas
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            La calidad de nuestros trabajos, la satisfacción de todos nuestros clientes, son la mejor muestra de éxito profesional y garantía de servicio.
+          </h5>
+          <p>
+            Real Valencia Reformas se enorgullece de la artesanía de calidad, la atención al detalle y proporciona una comunicación completa y abierta con todos y cada uno de los clientes. Con cada proyecto, se entiende que no se trata simplemente de pintar paredes o colocar azulejos, se trata de manifestar la visión del cliente y mantener esa visión como el enfoque central durante todo el proceso de construcción. Por estas razones, la compañía se encuentra entre los especialistas en renovación y constructores de viviendas personalizados más confiables y cubre y rebasa las expectativas que tienen los clientes.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Real Valencia Reformas es una empresa en el sector de la rehabilitación, reparación y restauración integral de viviendas, locales, garages, etc...
+          </h5>
+          <p>
+            Siempre con el objetivo principal de ofrecer un servicio profesional, económico, eficiente y con la máxima calidad.
+            Real Valencia Reformas dispone de un equipo humano altamente cualificado y especializado en la rehabilitación de viviendas.
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Construcción seguro.
+          </h5>
+          <p>
+            El éxito continuo de la empresa se debe en parte a su compromiso con la práctica de métodos de construcción seguros y el estricto cumplimiento de todas las leyes, normas y reglamentos aplicables.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Nuestra visión</h2>
+        <h3 class="section__header">
+          Lo único más importante que la experiencia es la pasión. Nosotros tenemos ambos.
+        </h3>
+      </div>
+
+      <div class="slider">
+
+        <div class="slide slide--1">
+          <div class="testimonial">
+             <h4>Ideas de Diseño de Sala</h4><br>
+            <img src="img/slide1.png" alt="Image not available">
+          </div>
+        </div>
+        
+        <div class="slide slide--2">
+          <div class="testimonial">
+            <h4>Ideas de diseño de davincilifestyle.com</h4><br><br>
+            <img src="img/slide2.png" alt="Image not available">
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <div class="testimonial">
+            <h4 style="margin-left: 200px;">Ideas de diseño de davincilifestyle.com</h4><br><br>
+            <img src="img/slide3.png" alt="Image not available">
+          </div>
+        </div>
+
+        <div class="slide slide--4">
+          <div class="testimonial">
+            <h4 style="margin-left: 200px;">Ideas de diseño de davincilifestyle.com</h4><br><br>
+            <img src="img/slide4.png" alt="Image not available">
+          </div>
+        </div>
+
+        <div class="slide slide--5">
+          <div class="testimonial">
+            <h4 style="margin-left: 200px;">Ideas de diseño de davincilifestyle.com</h4><br><br>
+            <img src="img/slide5.png" alt="Image not available">
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          Contáctenos para una consulta gratuita.
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Contacta con nosotros ahora! ☟</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" target="_blank" href="https://www.instagram.com/realvalencia_reformas/">Instagram:ㅤrealvalencia_reformas</a>
+        </li>
+        <li class="footer__item">
+          <a 
+            href="mailto:realvalencia@mail.com"
+            class="footer__link" 
+            style="cursor: pointer;">@Correo electrónico:ㅤrealvalencia@mail.com
+          </a>
+        </li>
+        </li>
+      </ul>
+      <img src="img/logo.fouter.jpg" alt="Logo" class="footer__logo" />
+      <p class="footer__copyright">
+        <a
+          class="footer__link twitter-link"
+          target="_blank"
+          href="https://www.instagram.com/realvalencia_reformas/"
+          >© Real Valencia</a
+        >. 2023, Privacy policy, Terms & Conditions.
+      </p>
+    </footer>
+
+      <div class="modal hidden">
+        <div class="close-modal">
+          <a class="a-href" href="#">
+            <span class="left">
+              <span class="circle-left"></span>
+              <span class="circle-right"></span>
+            </span>
+            <span class="right">
+              <span class="circle-left"></span>
+              <span class="circle-right"></span>
+            </span>
+          </a>
+        </div>
+
+
+      <h2 class="modal__header" style="cursor: pointer;">
+        Instagram: <br />
+        <span class="highlight">realvalencia_reformas</span>
+      </h2>
+      <h2 class="modal__header" style="cursor: pointer;">
+        @Correo electrónico: <br />
+        <span class="highlight">realvalencia@mail.com</span>
+      </h2>
+      <form class="modal__form">
+
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
